@@ -37,4 +37,21 @@ public class Calculator {
     // 声明各个UI组件对象并初始化
     JFrame frame = new JFrame("Calculator");
     JTextField result_TextField = new JTextField(result, 20);
+    JButton clear_Button = new JButton("Clear");
+    JButton button0 = new JButton("0");
+    JButton button1 = new JButton("1");
+    JButton button2 = new JButton("2");
+    JButton button3 = new JButton("3");
+    JButton button4 = new JButton("4");
+    JButton button5 = new JButton("5");
+    JButton button6 = new JButton("6");
+    JButton button7 = new JButton("7");
+    JButton button8 = new JButton("8");
+    JButton button9 = new JButton("9");
+    JButton button_dian = new JButton(".");
+    JButton button_jia = new JButton("+");
+    JButton button_jian = new JButton("-");
+    JButton button_cheng = new JButton("*");
+    JButton button_chu = new JButton("/");
+    JButton button_dy = new JButton("=");
     
