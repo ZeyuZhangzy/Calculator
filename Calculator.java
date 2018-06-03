@@ -36,4 +36,5 @@ public class Calculator {
     
     // 声明各个UI组件对象并初始化
     JFrame frame = new JFrame("Calculator");
-   JTextField result_TextField = new JTextField(result, 20);
+    JTextField result_TextField = new JTextField(result, 20);
+    
