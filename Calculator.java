@@ -1,4 +1,4 @@
-mport java.awt.*;
+import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.Vector;
@@ -35,4 +35,5 @@ public class Calculator {
     Vector vt = new Vector(20, 10);
     
     // 声明各个UI组件对象并初始化
-    JFrame 
+    JFrame frame = new JFrame("Calculator");
+   JTextField result_TextField = new JTextField(result, 20);
